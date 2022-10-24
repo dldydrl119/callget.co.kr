@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300;800&display=swap");
+
+.infoDetail {
+  width: 100%;
+  height: 400px;
+  padding: 15px 20px;
+  border: 0px solid #2970d6;
+  font-size: 20px;
+  line-height: 40px;
+  background: url("/assets/images/bg/pop_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.infobutton {
+  background-color: #fff;
+  color: #000;
+  border-right: 2px solid #f1f1f1;
+}
+
+.infobutton1 {
+  display: block;
+  background-color: #fff;
+  color: #000;
+}
+
+.infoDetail .title {
+  text-align: center;
+  color: #fff;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 24px;
+  line-height: 1.2em;
+  letter-spacing: -2px;
+}
+
+.infoDetail .sub_title {
+  text-align: center;
+  color: #fff;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2em;
+  letter-spacing: -2px;
+}
+
+.infofoot {
+  width: 95%;
+  top: 71%;
+  position: absolute;
+}
+
+.infoimg {
+  width: 100%;
+  top: 31%;
+  position: absolute;
+}
+
+.infoimg img {
+  width: 230px;
+  height: 180px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+}
+
+#pop {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#pop > article {
+  width: 50%;
+  position: relative;
+  z-index: 2;
+  background: white;
+  border-radius: 55px 55px 0 0;
+  box-shadow: 3px 3px 5px black;
+  margin: 12% 0 0 25%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.black {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.button_zone {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .infoDetail {
+    width: 100%;
+    height: 286px;
+    padding: 15px 20px;
+    border: 0px solid #2970d6;
+    font-size: 20px;
+    line-height: 40px;
+    background: url("/assets/images/bg/pop_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .infoDetail .title {
+    text-align: left;
+    color: #fff;
+    font-family: "Gothic A1", sans-serif;
+    font-size: 28px;
+    line-height: 1.2em;
+    letter-spacing: -2px;
+  }
+
+  #pop > article {
+    width: 80%;
+    position: relative;
+    z-index: 2;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 3px 3px 5px black;
+    margin: 35% 0 0 10%;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .infobutton {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    color: #020202;
+    border: none;
+    line-height: 25px;
+    cursor: pointer;
+  }
+
+  .infobutton1 {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    color: #020202;
+    border: none;
+    line-height: 25px;
+    cursor: pointer;
+  }
+
+  .infoimg {
+    width: 100%;
+    top: 42%;
+    left: 34px;
+    position: absolute;
+  }
+
+  .infoimg img {
+    width: 115px;
+    height: 90px;
+  }
+  .infofoot {
+    width: 87%;
+    top: 71%;
+    position: absolute;
+  }
+  .button_zone {
+    display: flex;
+    padding: 10px;
+  }
+}

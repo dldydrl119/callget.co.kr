@@ -1,0 +1,28 @@
+
+#test ul {list-style: none;padding:0;margin:0}
+#test .clearfix::after {content:"";display:block;clear:both}
+#test .wrap {width:100%;margin:0 auto}
+#test .nav{width:220px;float:left;box-shadow:0 3px 7px 0 rgba(0,0,0,.05)}
+#test .nav li{position:relative;padding: 33px 25px;height: 83.5px;font-size:15px;line-height:1;color:#333;border:1px solid #e1e1e1;cursor:pointer;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;box-sizing:border-box;}
+#test .nav li.on,.nav li:hover{font-weight:700;color:#fff;border-color:#5f7aff;background:#5f7aff;box-shadow:0 3px 7px 0 rgba(27,0,255,.25)}
+#test .nav li.on::before,.nav li:hover::before{position:absolute;top:-1px;bottom:-1px;left:-1px;right:-1px;border-top:1px solid #fff;content:""}
+#test .nav li~li{border-top:none}
+#test .slide{position:relative;float:left;width:100%;height:auto;overflow:hidden;visibility:none;opacity:0}
+#test .slide li img {max-width:100%}
+
+#test .slide .slick-dots{display:none!important}
+#test .slide.slick-initialized{visibility:visible;opacity:1}
+#test .slide .slick-slide {outline:none}
+#test .slide-arrow{display: none !important; position:absolute;top: 50%;transform: translateY(-50%);padding: 0 4px;font-size: 24px;color: #000;background: rgba(255,255,255,0.8);border:none;outline:0;z-index:1;cursor:pointer}
+#test .slide-arrow:hover {display: block!important;}
+#test .prev-arrow{left: 0;}
+#test .next-arrow{right:0}
+#test .slide_paging{text-align:center;font-size:14px;color:#aaa;cursor:default;}
+#test .slide_paging .page{color:#5c5c5c}
+#test .slide_paging .slide_number {position:absolute; width: fit-content; margin: 0 auto; line-height: 13px; padding: 1px 7px; border: 1px solid #e1e1e1; border-radius: 13px; font-size: 12px;top: 94%; left: 50%;transform: translate(-50%, -50%); background-color: #ffffffeb;}
+
+
+@media (max-width: 767px) {
+	#test .slide_paging .slide_number {top: 88%; font-size: 10px;padding: 0px 8px;}
+}
+

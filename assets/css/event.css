@@ -1,0 +1,38 @@
+/* ============================================== /*
+ *                      About
+/* ============================================== */
+#event_1 { margin-top: 50px; padding: 40px 15px; position: relative;  }
+#event_1.category {margin-top: 0;}
+#event_1 .event_title {padding: 0 20% 10px;}
+#event_1 .banner {width: 100%; padding: 0 20% 30px;}
+#event_1 .banner img {width: 100%; border-radius:10px;}
+#event_1 .event_banner {width: 100%; padding: 0 20% 30px;}
+#event_1 .event_banner img {width: 100%; border-radius:10px;}
+
+#event_2 { margin: 0 auto; padding: 20px 15px; }
+
+#event_3 { padding: 40px 15px; }
+#event_3 .symbol { margin-top: 5px; margin-bottom: 35px; padding: 0px; text-align: center; }
+#event_3 .symbol img { margin: 30px 0px; width: 100%; max-width: 680px; }
+#event_3 .step_area { clear: both; margin: 0 auto; max-width: 680px; text-align: left; }
+#event_3 .step_area .steps p:nth-child(1) { display: inline-block; margin-bottom: 8px; padding: 5px 10px; font-size: 14px; font-weight: bold; color: #fff; border-radius: 20px; background-color: #a5925f; }
+#event_3 .step_area .steps p:nth-child(1):hover { background-color: #a5925f; cursor: default; }
+#event_3 .step_area .steps p:nth-child(2) { margin-bottom: 20px; padding: 0px 5px; font-size: 14px; color: #555; }
+#event_3 .step_area .steps p:nth-child(3) { padding: 5px; font-size: 12px; color: #777; }
+#event_3 .step_area .steps:last-child p:nth-child(2) { margin: 0; }
+
+#event_4 { padding: 40px 15px; }
+#event_4 .symbol { margin-top: 5px; margin-bottom: 35px; padding: 0px; text-align: center; }
+#event_4 .symbol img { margin: 30px 0px; width: 50%; max-width: 300px; }
+#event_4 .step_area { clear: both; margin: 0 auto; max-width: 680px; text-align: left; }
+#event_4 .step_area .steps p { margin-bottom: 20px; padding: 0px 5px; font-size: 14px; color: #555; }
+
+@media (max-width: 992px) {
+	#event_1 { margin-top: 60px; padding: 0; }
+	#event_1.category {margin-top: 0;}
+	#event_1 .banner {padding: 0 0 20px;}
+	#event_1 .section-header p { font-size: 16px; }
+	#event_1 .event.pointer { padding: 0 10px; }
+	
+	
+}
